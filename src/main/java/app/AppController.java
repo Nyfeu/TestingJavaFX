@@ -1,20 +1,27 @@
 package app;
 
+import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
 public class AppController {
 
-    @FXML
-    private Label testLabel;
+    // Label IDs:
 
-    @FXML
-    private Button testBtn;
+        @FXML
+        private Label testLabel;
 
-    @FXML
-    protected void onButtonClick() {
-        testLabel.setText("Testing JavaFX!");
-    }
+    // Button IDs:
+
+        @FXML
+        private Button testBtn;
+
+
+    // eventHandling methods:
+
+        @FXML
+        protected void onButtonClick() { testLabel.setText("Testing JavaFX!"); }
+
 
 }
