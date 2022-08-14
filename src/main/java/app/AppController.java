@@ -1,27 +1,40 @@
 package app;
 
-import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
 
 public class AppController {
 
-    // Label IDs:
+    // TextFields IDs:
 
         @FXML
-        private Label testLabel;
+        private TextField num1Field;
+
+        @FXML
+        private TextField num2Field;
+
+        @FXML
+        private TextField num3Field;
+
+        @FXML
+        private TextField resultField;
 
     // Button IDs:
 
         @FXML
-        private Button testBtn;
+        private Button calculateBtn;
 
 
     // eventHandling methods:
 
         @FXML
-        protected void onButtonClick() { testLabel.setText("Testing JavaFX!"); }
+        protected void onButtonClick() {
+
+                double result = Double.parseDouble(num1Field.getText()) + Double.parseDouble(num2Field.getText()) + Double.parseDouble(num3Field.getText());
+                resultField.setText(String.format("%.2f", result));
+
+        }
 
 
 }

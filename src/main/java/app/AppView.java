@@ -28,7 +28,7 @@ public class AppView extends Application {
 
             FXMLLoader fxmlLoader = new FXMLLoader(AppView.class.getResource("hello-view.fxml"));
             Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-            stage.setTitle("Testing JavaFx!");
+            stage.setTitle("Sum - Calculator");
             stage.setScene(scene);
             stage.show();
 
