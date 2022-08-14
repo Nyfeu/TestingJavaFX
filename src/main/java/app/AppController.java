@@ -1,10 +1,11 @@
-package app.testingjavafx;
+package app;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
-public class HelloController {
+public class AppController {
+
     @FXML
     private Label testLabel;
 
@@ -15,4 +16,5 @@ public class HelloController {
     protected void onButtonClick() {
         testLabel.setText("Testing JavaFX!");
     }
+
 }

@@ -3,6 +3,6 @@ module app.testingjavafx {
     requires javafx.fxml;
 
 
-    opens app.testingjavafx to javafx.fxml;
-    exports app.testingjavafx;
+    opens app to javafx.fxml;
+    exports app;
 }
