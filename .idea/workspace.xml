@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="746c9aa3-b90d-463d-8ddc-cc189c8d81d5" name="Changes" comment="Implementando gui.util.Alerts e implementando os métodos init() e stop()!">
+    <list default="true" id="746c9aa3-b90d-463d-8ddc-cc189c8d81d5" name="Changes" comment="Cálculo da soma de três números - via GUI.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/util/Constraints.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/AppController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/AppView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/AppView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/app/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/app/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660505778263</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Cálculo da soma de três números - via GUI.">
+      <created>1660508990185</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660508990185</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,6 +116,7 @@
     <MESSAGE value="Inicializando projeto JavaFX" />
     <MESSAGE value="Organizando os arquivos do projeto" />
     <MESSAGE value="Implementando gui.util.Alerts e implementando os métodos init() e stop()!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementando gui.util.Alerts e implementando os métodos init() e stop()!" />
+    <MESSAGE value="Cálculo da soma de três números - via GUI." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cálculo da soma de três números - via GUI." />
   </component>
 </project>

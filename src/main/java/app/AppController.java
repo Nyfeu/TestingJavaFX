@@ -1,10 +1,15 @@
 package app;
 
+import gui.util.Constraints;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 
-public class AppController {
+import java.net.URL;
+import java.util.ResourceBundle;
+
+public class AppController implements Initializable {
 
     // TextFields IDs:
 
@@ -37,4 +42,22 @@ public class AppController {
         }
 
 
+        @Override
+        public void initialize(URL url, ResourceBundle rb) {
+
+                // Adding constraints:
+
+                        // Setting to double:
+
+                                Constraints.setTextFieldDouble(num1Field);
+                                Constraints.setTextFieldDouble(num2Field);
+                                Constraints.setTextFieldDouble(num3Field);
+
+                        // Setting size:
+
+                                Constraints.setTextFieldMaxLength(num1Field,10);
+                                Constraints.setTextFieldMaxLength(num2Field,10);
+                                Constraints.setTextFieldMaxLength(num3Field,10);
+
+        }
 }
