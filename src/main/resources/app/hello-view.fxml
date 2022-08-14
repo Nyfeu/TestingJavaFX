@@ -6,7 +6,6 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="240.0" prefWidth="240.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.AppController">
    <children>
-      <Button fx:id="calculateBtn" alignment="CENTER" layoutX="20.0" layoutY="183.0" mnemonicParsing="false" onAction="#onButtonClick" text="Calculate" />
       <Label layoutX="67.0" layoutY="26.0" text="Calculate Sum">
          <font>
             <Font name="System Bold" size="16.0" />
@@ -31,6 +30,7 @@
             <TextField fx:id="num3Field" GridPane.columnIndex="1" GridPane.rowIndex="2" />
          </children>
       </GridPane>
+      <Button fx:id="calculateBtn" alignment="CENTER" layoutX="20.0" layoutY="183.0" mnemonicParsing="false" onAction="#onButtonClick" text="Calculate" />
       <TextField fx:id="resultField" layoutX="105.0" layoutY="183.0" prefHeight="26.0" prefWidth="100.0" />
    </children>
 </AnchorPane>
