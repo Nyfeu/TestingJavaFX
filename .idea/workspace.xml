@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="746c9aa3-b90d-463d-8ddc-cc189c8d81d5" name="Changes" comment="Ajustando a hierarquia dos nodes!">
+    <list default="true" id="746c9aa3-b90d-463d-8ddc-cc189c8d81d5" name="Changes" comment="Finalizando o projeto!">
       <change beforePath="$PROJECT_DIR$/src/main/java/app/AppView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/AppView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660509643386</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Finalizando o projeto!">
+      <created>1660509767817</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1660509767817</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +137,7 @@
     <MESSAGE value="Cálculo da soma de três números - via GUI." />
     <MESSAGE value="Adicionando restrições nos textFields!" />
     <MESSAGE value="Ajustando a hierarquia dos nodes!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajustando a hierarquia dos nodes!" />
+    <MESSAGE value="Finalizando o projeto!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalizando o projeto!" />
   </component>
 </project>

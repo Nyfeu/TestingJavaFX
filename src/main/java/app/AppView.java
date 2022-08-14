@@ -8,6 +8,7 @@ import javafx.scene.control.Alert.AlertType;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.Locale;
 
 public class AppView extends Application {
 
@@ -50,6 +51,10 @@ public class AppView extends Application {
     }
 
     public static void main(String[] args) {
+
+        // Setting Locale:
+
+            Locale.setDefault(Locale.US);
 
         // It starts the app:
 
